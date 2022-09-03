@@ -43,41 +43,19 @@ a {
     font-size: 18px;
 }
 
-/* a:hover {
-    color: red; ссылка становиться красной 
-    font-size: 30px;
-
-} */
-
 li:last-child {
-    margin-right: 0px; /* убрать последний отступ */
+    margin-right: 0px;
 }
 
 nav {
     margin-bottom: 20;
 }
 
-/* div {
-    margin-top: 70px; внешний отступ сверху 
-    padding-top: 30px; внутренний отступ сверху 
-    border-width: 3px; рамка 
-    border-color: black;
-    border-style: solid;
-    background-color: green;
-
-    margin: 30px 50px 0px 80px;
-    padding: 20px 40px 10px 0px;
-    border: 4px solid black;
-} */
-
 .section-about {
     height: 640px;
-    /* background-image: url(../img/01-Картинка-фона.jpg);
-    background-position: center; центрируем изображение
-    border-style: cover; растягиваем изображение в зависимости от ширины */
     background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
-    position: relative; /* что бы позиционировался не от тэга body, а от родительского */
-    margin-bottom: 20px; /* отодвинули иконки вниз */
+    position: relative;
+    margin-bottom: 20px; 
 }
 
 .section-about__block {
