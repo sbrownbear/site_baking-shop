@@ -30,6 +30,7 @@ ul {
     list-style-type: none; /* убрать точки слева от текста */
     text-align: center; /* текст по центру */
     padding: 0;
+    margin-bottom: 20px;
 }
 
 li {
